@@ -1,23 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Volume : MonoBehaviour {
 
-	private AudioSource audioSrc;
-	private float musicVolume = 1f;
+	public Slider volumeSlider;
+	public AudioSource volumeAudio;
 
-	// Use this for initialization
-	void Start () {
-		audioSrc = GetComponent<AudioSource> ();
-	}
-	
-	// Update is called once per frame
 	void Update () {
-		audioSrc.volume = musicVolume;
-	}
-
-	public void SetVolume (float vol) {
-		musicVolume = vol;
+		volumeAudio.volume = volumeSlider.value;
 	}
 }
