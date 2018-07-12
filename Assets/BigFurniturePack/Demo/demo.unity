@@ -563,6 +563,24 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 969e14f1112395b4b816c3c2606022bf, type: 2}
   m_PrefabInternal: {fileID: 1096733488}
+--- !u!1 &221543107 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: df7f243bd429cd5408f1ad2978c21cec, type: 2}
+  m_PrefabInternal: {fileID: 243148774}
+--- !u!64 &221543108
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 221543107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: -1
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: e625800ca6c186b46bf906733b1ed7b7, type: 3}
 --- !u!1001 &243148774
 Prefab:
   m_ObjectHideFlags: 0
@@ -721,7 +739,7 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: 66e6284526c4a2645a28827f82a71cfd, type: 2}
   m_PrefabInternal: {fileID: 2144270816}
---- !u!64 &259626477
+--- !u!64 &259626480
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -2480,7 +2498,7 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 2}
   m_PrefabInternal: {fileID: 873044263}
---- !u!64 &479660619
+--- !u!64 &479660622
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -2498,7 +2516,7 @@ MeshCollider:
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 8bc0238f058e4164f9eb9123a975cbe6, type: 2}
   m_PrefabInternal: {fileID: 266985208}
---- !u!64 &489496845
+--- !u!64 &489496848
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -2520,7 +2538,7 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bcf7f5659c394f04f947cb579e955ca3, type: 2}
   m_PrefabInternal: {fileID: 586194058}
---- !u!64 &493809968
+--- !u!64 &493809971
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -3774,7 +3792,7 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 2}
   m_PrefabInternal: {fileID: 873044263}
---- !u!64 &700997173
+--- !u!64 &700997176
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -3844,7 +3862,7 @@ Rigidbody:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: bab2957dd377aea42995c59df2777846, type: 2}
   m_PrefabInternal: {fileID: 1521209387}
---- !u!64 &760328247
+--- !u!64 &760328250
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -3880,7 +3898,7 @@ MeshCollider:
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: 66e6284526c4a2645a28827f82a71cfd, type: 2}
   m_PrefabInternal: {fileID: 52229322}
---- !u!64 &842572155
+--- !u!64 &842572158
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -5450,7 +5468,7 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: da7880317cad2524a93cbb6056bbc922, type: 2}
   m_PrefabInternal: {fileID: 2032537454}
---- !u!64 &1162198394
+--- !u!64 &1162198397
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -5779,7 +5797,7 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 398008aaa9b8a2e4ebd3860a13db4038, type: 2}
   m_PrefabInternal: {fileID: 609316899}
---- !u!64 &1234985384
+--- !u!64 &1234985387
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -5839,7 +5857,7 @@ Rigidbody:
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 2}
   m_PrefabInternal: {fileID: 873044263}
---- !u!64 &1323445327
+--- !u!64 &1323445330
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -7692,7 +7710,7 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 398008aaa9b8a2e4ebd3860a13db4038, type: 2}
   m_PrefabInternal: {fileID: 609316899}
---- !u!64 &1666386182
+--- !u!64 &1666386185
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -8499,7 +8517,7 @@ MeshCollider:
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 69876b662dbfff945b3239cdac3b1811, type: 2}
   m_PrefabInternal: {fileID: 451260524}
---- !u!64 &1823855590
+--- !u!64 &1823855593
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
