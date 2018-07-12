@@ -39,7 +39,7 @@ public class CatControl : MonoBehaviour {
 
         if (Input.GetButton("Vertical"))
         {
-            var z = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
+            var z = Input.GetAxis("Vertical") * Time.deltaTime * 1.6f;
             transform.Translate(0, 0, z);
         }
 
