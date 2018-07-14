@@ -70,7 +70,7 @@ public class CatControl : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision collision)
 	{
-        if (collision.gameObject.name == "Test_Mouse") {
+        if (collision.gameObject.name == "Mouse_d") {
             anim.SetTrigger("caught");
         }
 	}
