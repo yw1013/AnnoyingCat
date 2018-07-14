@@ -8,7 +8,7 @@ public class GameStarter : MonoBehaviour {
 	public void StartGame() {
 		Time.timeScale = 1f;
 		Debug.LogError ("Game Start");
-		SceneManager.LoadScene ("Cat");
+		SceneManager.LoadScene ("demoScene");
 	}
 
 }

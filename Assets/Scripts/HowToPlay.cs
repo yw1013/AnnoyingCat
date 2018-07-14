@@ -10,7 +10,7 @@ public class HowToPlay : MonoBehaviour {
 
 	void Awake () {
 		if (canvasGroup == null) {
-			Debug.LogError ("can't find CanvasGroup ");
+//			Debug.LogError ("can't find CanvasGroup ");
 		}
 		canvasGroup = GetComponent<CanvasGroup> ();
 
