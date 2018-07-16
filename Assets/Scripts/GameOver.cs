@@ -5,6 +5,9 @@ using UnityEngine;
 public class GameOver : MonoBehaviour {
 
 	public Timer timerManager;
+    public ScoreManager scoreManager;
+    private int finalScore;
+    public HighScoreKeeper highScore;
 
 
 	Animator anim;
@@ -18,7 +21,13 @@ public class GameOver : MonoBehaviour {
 	void Update() {
 		if (timerManager.timer <= 0) {
 			anim.SetTrigger("GameOver");
+            finalScore = scoreManager.getScore();
+            highScore.updateScore();
 		}
 	}
+
+    public int getLastestScore() {
+        return finalScore;
+    }
 }
 
