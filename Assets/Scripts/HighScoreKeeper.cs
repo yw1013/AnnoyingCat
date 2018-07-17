@@ -8,7 +8,7 @@ public class HighScoreKeeper : MonoBehaviour {
     private Text scoreText;
     private GameOver gameOver; 
 
-    private int score;
+    private int score = 0;
 
 	// Use this for initialization
 	void Start () {
