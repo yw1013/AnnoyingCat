@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.46240264, g: 0.51315385, b: 0.5901952, a: 1}
+  m_IndirectSpecularColor: {r: 0.18087682, g: 0.22641876, b: 0.30722237, a: 1}
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1992,9 +1992,85 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114011415170747568, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_text
+      value: The Annoying Cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 114011415170747568, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114011415170747568, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 114011415170747568, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114011415170747568, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114011415170747568, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617668045809476, guid: e7594c0d8b86a114988018fe1b3a280c, type: 2}
+      propertyPath: m_Name
+      value: TheAnnoyingCat
+      objectReference: {fileID: 0}
+    - target: {fileID: 114782253726633636, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 413834131}
+    - target: {fileID: 114782253726633636, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 114334100960166306, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 413834131}
+    - target: {fileID: 114334100960166306, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 114350035023676386, guid: e7594c0d8b86a114988018fe1b3a280c,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114335171971989100, guid: e7594c0d8b86a114988018fe1b3a280c, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: e7594c0d8b86a114988018fe1b3a280c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &413834130 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1496505373305442, guid: e7594c0d8b86a114988018fe1b3a280c,
+    type: 2}
+  m_PrefabInternal: {fileID: 413834129}
+--- !u!114 &413834131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 413834130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e966e8b9e66954a06ae90cd9c9231ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &415496573
 GameObject:
   m_ObjectHideFlags: 0

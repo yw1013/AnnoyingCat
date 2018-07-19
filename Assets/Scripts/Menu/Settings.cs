@@ -11,4 +11,7 @@ public class Settings : MonoBehaviour {
 		audioMixer.SetFloat ("volume", volume);		
 	}
 
+	public void SetResolution () {
+		Screen.SetResolution (1920, 1080, true);
+	}
 }

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameMenu : MonoBehaviour {
 
 	void Start () {
+		Screen.SetResolution (1920, 1080, true);
 	}
 
 	public void StartGame() {
