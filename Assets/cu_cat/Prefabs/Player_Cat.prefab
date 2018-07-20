@@ -2755,6 +2755,7 @@ MonoBehaviour:
   speed: 1.6
   jumpableGroundNormalMaxAngle: 45
   closeToJumpableGround: 0
+  mouse: {fileID: 1862376176441662, guid: f0dcb551991c6439a9fd253ba4f352c0, type: 2}
 --- !u!114 &114809640365954496
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -11,6 +11,7 @@ public class CatControl : MonoBehaviour {
     public float speed = 1.6f;
     public float jumpableGroundNormalMaxAngle = 45f;
     public bool closeToJumpableGround;
+    public GameObject mouse;
 
 	// Use this for initialization
 	void Start () {
@@ -90,6 +91,7 @@ public class CatControl : MonoBehaviour {
 	{
         if (collision.gameObject.name == "Mouse_d") {
             anim.SetTrigger("caught");
+            Destroy(mouse);
         }
 	}
 
