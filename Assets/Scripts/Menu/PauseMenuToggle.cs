@@ -28,11 +28,15 @@ public class PauseMenuToggle : MonoBehaviour {
 				canvasGroup.interactable = false; 
 				canvasGroup.blocksRaycasts = false; 
 				canvasGroup.alpha = 0f;
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
 			} else {
 				Time.timeScale = 0f;
 				canvasGroup.interactable = true; 
 				canvasGroup.blocksRaycasts = true; 
 				canvasGroup.alpha = 1f;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
 			} 
 		}
 

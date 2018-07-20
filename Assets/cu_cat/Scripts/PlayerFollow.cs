@@ -12,14 +12,16 @@ public class PlayerFollow : MonoBehaviour {
     public float mouseY;
     private float rotX = 0f;
     private float rotY = 0f;
+    //private bool lockMode;
 
 
 	void Start () {
         Vector3 rot = transform.localRotation.eulerAngles;
         rotX = rot.x;
         rotY = rot.y;
-        //Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.visible = false;
+        //lockMode = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
 	private void Update()
@@ -35,7 +37,18 @@ public class PlayerFollow : MonoBehaviour {
         Quaternion localRotation = Quaternion.Euler(rotX, rotY, 0f);
         transform.rotation = localRotation;
 
-
+        //if(Input.GetKey(KeyCode.L)) {
+        //    if (!lockMode) {
+        //        Cursor.lockState = CursorLockMode.Locked;
+        //        Cursor.visible = lockMode;
+        //        lockMode = true;
+        //    }
+        //    if (lockMode) {
+        //        Cursor.lockState = CursorLockMode.None;
+        //        Cursor.visible = lockMode;
+        //        lockMode = false;
+        //    }
+        //}
 	}
 
 	void LateUpdate () {

@@ -36195,6 +36195,29 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114758623749610656, guid: 23961d80484cb4eef8888b64c279c08d,
+        type: 2}
+      propertyPath: m_text
+      value: 'Knock down as many objects as you can!
+
+        Different objects give different points.
+
+        Some objects give power-ups.
+
+        Catch the mouse for bonus points!
+
+        W,A,S,D to move, Space to jump!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114758623749610656, guid: 23961d80484cb4eef8888b64c279c08d,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114758623749610656, guid: 23961d80484cb4eef8888b64c279c08d,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23961d80484cb4eef8888b64c279c08d, type: 2}
   m_IsPrefabParent: 0
