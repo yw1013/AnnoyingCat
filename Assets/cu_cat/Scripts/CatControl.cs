@@ -7,7 +7,8 @@ public class CatControl : MonoBehaviour {
     Animator anim;
     Rigidbody rb;
     private bool isGrounded;
-
+    private bool shiftPressed;
+    public float speed = 1.6f;
     public float jumpableGroundNormalMaxAngle = 45f;
     public bool closeToJumpableGround;
 
@@ -16,6 +17,7 @@ public class CatControl : MonoBehaviour {
         anim = this.GetComponent<Animator>();
         rb = this.GetComponent<Rigidbody>();
         isGrounded = false;
+        shiftPressed = false;
         anim.SetBool("isGrounded", isGrounded);
 	}
 	
@@ -28,23 +30,39 @@ public class CatControl : MonoBehaviour {
         if (CharacterCommon.CheckGroundNear(this.transform.position, jumpableGroundNormalMaxAngle, 0.1f, 1f, out closeToJumpableGround))             isGrounded = true;
 
         if (Input.GetButton("Horizontal")) {
-            var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
+            var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150f;
             transform.Rotate(0, x, 0);
         }
 
         if (Input.GetButtonDown("Vertical"))
         {
             anim.SetFloat("vert", 1f);
+
+        }
+        if (Input.GetButtonDown("Vertical") && Input.GetButtonDown("Shift"))
+        {
+            anim.SetFloat("vert", 1f);
+            shiftPressed = true;
+            anim.SetBool("shift", shiftPressed);
         }
 
         if (Input.GetButton("Vertical"))
         {
-            var z = Input.GetAxis("Vertical") * Time.deltaTime * 1.6f;
+            var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
+            //transform.Translate(0, 0, z);
+            if (shiftPressed) {
+                z *= 1.8f;
+            }
             transform.Translate(0, 0, z);
         }
 
         if (Input.GetButtonUp("Vertical")) {
             anim.SetFloat("vert", 0f);
+            if (Input.GetButtonUp("Shift"))
+            {
+                shiftPressed = false;
+                anim.SetBool("shift", shiftPressed);
+            }
         }
 
         if (Input.GetButtonDown("Fire1")) {
