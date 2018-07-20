@@ -2429,6 +2429,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 60689449}
   m_Mesh: {fileID: 4300000, guid: ba28af13f0b57554e85113dca2014b6d, type: 3}
+--- !u!1 &63304256 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1951077246926230, guid: 335be4728d822634a97f6df0dd9fa0ad,
+    type: 2}
+  m_PrefabInternal: {fileID: 1240495811}
+--- !u!114 &63304257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63304256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2678b9183d84c869151e7007b9e817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1439265049}
+  scoreVal: 5
 --- !u!1 &64043614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5595,6 +5613,10 @@ Prefab:
     - target: {fileID: 4997874052640724, guid: 24b0aa248f0832145a730470a7eed7fa, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1159621838524128, guid: 24b0aa248f0832145a730470a7eed7fa, type: 2}
+      propertyPath: m_Name
+      value: collidable_vase_5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 24b0aa248f0832145a730470a7eed7fa, type: 2}
@@ -12253,6 +12275,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396710293}
   m_Mesh: {fileID: 4300000, guid: ba28af13f0b57554e85113dca2014b6d, type: 3}
+--- !u!1 &397163430 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1159621838524128, guid: 24b0aa248f0832145a730470a7eed7fa,
+    type: 2}
+  m_PrefabInternal: {fileID: 168905785}
+--- !u!114 &397163431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 397163430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2678b9183d84c869151e7007b9e817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1439265049}
+  scoreVal: 10
 --- !u!1 &397858696
 GameObject:
   m_ObjectHideFlags: 0
@@ -12329,6 +12369,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 397858696}
   m_Mesh: {fileID: 4300000, guid: ba28af13f0b57554e85113dca2014b6d, type: 3}
+--- !u!1 &399849224 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1840523305461258, guid: 335be4728d822634a97f6df0dd9fa0ad,
+    type: 2}
+  m_PrefabInternal: {fileID: 1240495811}
+--- !u!114 &399849225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 399849224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2678b9183d84c869151e7007b9e817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1439265049}
+  scoreVal: 5
 --- !u!1001 &402061088
 Prefab:
   m_ObjectHideFlags: 0
@@ -24486,7 +24544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerManager: {fileID: 1281381110}
-  scoreManager: {fileID: 0}
+  scoreManager: {fileID: 1439265049}
   highScore: {fileID: 0}
 --- !u!95 &740527259
 Animator:
@@ -24583,6 +24641,7 @@ RectTransform:
   - {fileID: 1113598522}
   - {fileID: 862526838}
   - {fileID: 1302791610}
+  - {fileID: 1439265052}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42902,6 +42961,22 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: -0.538
       objectReference: {fileID: 0}
+    - target: {fileID: 1442645703526160, guid: 335be4728d822634a97f6df0dd9fa0ad, type: 2}
+      propertyPath: m_Name
+      value: collidable_tv_table_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840523305461258, guid: 335be4728d822634a97f6df0dd9fa0ad, type: 2}
+      propertyPath: m_Name
+      value: collidable_vase_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472561198301102, guid: 335be4728d822634a97f6df0dd9fa0ad, type: 2}
+      propertyPath: m_Name
+      value: collidable_vase_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951077246926230, guid: 335be4728d822634a97f6df0dd9fa0ad, type: 2}
+      propertyPath: m_Name
+      value: collidable_plate
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 335be4728d822634a97f6df0dd9fa0ad, type: 2}
   m_IsPrefabParent: 0
@@ -44341,7 +44416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: 
-  timer: 1000
+  timer: 100
 --- !u!114 &1281381111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49504,6 +49579,97 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1427096223}
   m_Mesh: {fileID: 4300000, guid: ba28af13f0b57554e85113dca2014b6d, type: 3}
+--- !u!1 &1439265048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1135802882619604, guid: 835177ea7024249f888246440b34530c,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1439265052}
+  - component: {fileID: 1439265051}
+  - component: {fileID: 1439265050}
+  - component: {fileID: 1439265049}
+  m_Layer: 5
+  m_Name: ScoreText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1439265049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439265048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da9a1e19472194f3b9c3d90a627cfa7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+--- !u!114 &1439265050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114186490892836624, guid: 835177ea7024249f888246440b34530c,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439265048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a30f933bed2f6504bae572c0ef6aaeb7, type: 3}
+    m_FontSize: 100
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 100
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 'Score:'
+--- !u!222 &1439265051
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 222615521175798656, guid: 835177ea7024249f888246440b34530c,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439265048}
+--- !u!224 &1439265052
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224743913710151446, guid: 835177ea7024249f888246440b34530c,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439265048}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 740527263}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -298.63525, y: -247}
+  m_SizeDelta: {x: 610.7, y: 148.5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1440244913 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1087135706475902, guid: 02c2b2cbc0ff34853b544da9f9c192af,
@@ -62053,6 +62219,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114896290094199928, guid: d2f900db4b05e4977bfa2aa00e5461ac,
+        type: 2}
+      propertyPath: scoreManager
+      value: 
+      objectReference: {fileID: 1439265049}
+    - target: {fileID: 114896290094199928, guid: d2f900db4b05e4977bfa2aa00e5461ac,
+        type: 2}
+      propertyPath: scoreVal
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2f900db4b05e4977bfa2aa00e5461ac, type: 2}
   m_IsPrefabParent: 0
@@ -71198,6 +71374,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2062842737}
   m_Mesh: {fileID: 4300000, guid: ba28af13f0b57554e85113dca2014b6d, type: 3}
+--- !u!1 &2063570532 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1472561198301102, guid: 335be4728d822634a97f6df0dd9fa0ad,
+    type: 2}
+  m_PrefabInternal: {fileID: 1240495811}
+--- !u!114 &2063570533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2063570532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2678b9183d84c869151e7007b9e817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1439265049}
+  scoreVal: 5
 --- !u!1 &2066433980
 GameObject:
   m_ObjectHideFlags: 0
