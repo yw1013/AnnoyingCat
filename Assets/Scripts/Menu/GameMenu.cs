@@ -22,6 +22,6 @@ public class GameMenu : MonoBehaviour {
 
 	public void BackToMenu() {
 		Debug.LogError ("Back To Menu");
-		SceneManager.LoadScene ("GameMenuScene");
+		SceneManager.LoadScene ("Level1GameMenuScene");
 	}
 }
