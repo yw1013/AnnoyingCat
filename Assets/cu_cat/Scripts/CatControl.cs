@@ -77,5 +77,7 @@ public class CatControl : MonoBehaviour {
 
     //This is a physics callback
     void OnCollisionStay(Collision collision)     {         isGrounded = true;
-        anim.SetBool("isGrounded", isGrounded);     }
+		if (anim != null) {
+			anim.SetBool ("isGrounded", isGrounded);
+		}     }
 }
