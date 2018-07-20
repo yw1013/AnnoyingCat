@@ -35,3 +35,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 Assets/Prefabs/Furniture.meta
+
+.DS_Store
