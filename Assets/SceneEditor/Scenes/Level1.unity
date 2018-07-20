@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 8
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,7 +39,6 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
-  m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -55,10 +54,11 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 20
-    m_AtlasSize: 128
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -248,7 +248,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -324,7 +323,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -415,7 +413,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -491,7 +488,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -568,7 +564,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -739,7 +734,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 416feab9bd75f3f45bd8457702ca11d6, type: 2}
   m_StaticBatchInfo:
@@ -830,7 +824,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -1078,7 +1071,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &30932912
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1093,7 +1085,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -1171,7 +1162,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -1261,7 +1251,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -1553,7 +1542,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -1629,7 +1617,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -1799,7 +1786,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -1890,7 +1876,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -1966,7 +1951,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -2058,7 +2042,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -2134,7 +2117,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -2210,7 +2192,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -2307,7 +2288,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &60646775
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2322,7 +2302,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -2399,7 +2378,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -2540,7 +2518,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -2757,7 +2734,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &68459807
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2772,7 +2748,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -2865,7 +2840,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -3022,7 +2996,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -3165,7 +3138,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: f3fa88374369eec409f8ad9f4329f1ac, type: 2}
   m_StaticBatchInfo:
@@ -3241,7 +3213,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -3387,7 +3358,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -3478,7 +3448,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -3597,7 +3566,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -3673,7 +3641,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -3814,7 +3781,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -3891,7 +3857,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -4046,7 +4011,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -4210,7 +4174,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -4286,7 +4249,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -4484,7 +4446,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -4816,7 +4777,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &134981359
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4831,7 +4791,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -4908,7 +4867,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -5158,7 +5116,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &158409436
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5173,7 +5130,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -5265,7 +5221,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -5341,7 +5296,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -5417,7 +5371,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -5645,7 +5598,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -5767,7 +5719,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -5843,7 +5794,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -5940,7 +5890,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: f3fa88374369eec409f8ad9f4329f1ac, type: 2}
   m_StaticBatchInfo:
@@ -6037,7 +5986,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &177702107
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6052,7 +6000,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -6160,7 +6107,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -6257,7 +6203,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &181552484
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6272,7 +6217,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -6349,7 +6293,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -6425,7 +6368,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -6501,7 +6443,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -6842,7 +6783,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -6939,7 +6879,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &211589553
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6954,7 +6893,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -7031,7 +6969,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -7108,7 +7045,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -7365,7 +7301,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -7441,7 +7376,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -7615,7 +7549,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -7911,7 +7844,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -8161,7 +8093,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -8237,7 +8168,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -8329,7 +8259,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -8540,7 +8469,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -8616,7 +8544,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -8773,7 +8700,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -8849,7 +8775,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -8941,7 +8866,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -9082,7 +9006,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -9272,7 +9195,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -9348,7 +9270,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -9457,7 +9378,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -9533,7 +9453,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -9625,7 +9544,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -9701,7 +9619,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -9777,7 +9694,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -9934,7 +9850,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -10010,7 +9925,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -10086,7 +10000,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -10195,7 +10108,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -10257,7 +10169,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -10347,7 +10258,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -10488,7 +10398,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -10565,7 +10474,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -10727,7 +10635,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -10835,7 +10742,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -10992,7 +10898,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -11140,7 +11045,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -11216,7 +11120,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -11594,7 +11497,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -11684,7 +11586,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -11826,7 +11727,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -11916,7 +11816,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -11992,7 +11891,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -12122,7 +12020,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -12217,7 +12114,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -12293,7 +12189,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -12420,7 +12315,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -12561,7 +12455,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -12656,7 +12549,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -12733,7 +12625,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -12823,7 +12714,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -12899,7 +12789,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13063,7 +12952,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13139,7 +13027,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13215,7 +13102,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13291,7 +13177,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13425,7 +13310,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13590,7 +13474,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13666,7 +13549,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13743,7 +13625,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13833,7 +13714,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13909,7 +13789,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -13985,7 +13864,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -14061,7 +13939,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -14137,7 +14014,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -14418,7 +14294,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &478240892
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14433,7 +14308,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -14604,7 +14478,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -14714,7 +14587,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -14891,7 +14763,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &491207597
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14906,7 +14777,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -15092,7 +14962,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &492068061
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15107,7 +14976,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -15399,7 +15267,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -15540,7 +15407,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -15836,7 +15702,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -15933,7 +15798,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &509204904
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15948,7 +15812,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -16025,7 +15888,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -16101,7 +15963,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -16261,7 +16122,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -16385,7 +16245,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -16461,7 +16320,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -16604,7 +16462,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -16680,7 +16537,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -16772,7 +16628,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 416feab9bd75f3f45bd8457702ca11d6, type: 2}
   m_StaticBatchInfo:
@@ -16848,7 +16703,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -16924,7 +16778,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -17001,7 +16854,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -17091,7 +16943,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -17234,7 +17085,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -17331,7 +17181,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &546579468
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17346,7 +17195,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -17424,7 +17272,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -17644,7 +17491,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -17774,7 +17620,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -17892,7 +17737,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -17982,7 +17826,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -18059,7 +17902,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -18165,7 +18007,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -18241,7 +18082,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -18317,7 +18157,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -18393,7 +18232,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -18469,7 +18307,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -18561,7 +18398,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -18637,7 +18473,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -18713,7 +18548,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -19042,7 +18876,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -19118,7 +18951,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -19210,7 +19042,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -19308,7 +19139,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &596965965
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19323,7 +19153,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -19416,7 +19245,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 416feab9bd75f3f45bd8457702ca11d6, type: 2}
   m_StaticBatchInfo:
@@ -19558,7 +19386,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -19713,7 +19540,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -19877,7 +19703,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -19953,7 +19778,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20094,7 +19918,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20170,7 +19993,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20246,7 +20068,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20322,7 +20143,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20398,7 +20218,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20474,7 +20293,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20550,7 +20368,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20626,7 +20443,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20702,7 +20518,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -20813,7 +20628,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -20954,7 +20768,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -21031,7 +20844,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -21272,7 +21084,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -21413,7 +21224,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -21554,7 +21364,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -21630,7 +21439,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -21863,7 +21671,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -21939,7 +21746,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -22020,7 +21826,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -22096,7 +21901,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -22193,7 +21997,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &680751439
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22208,7 +22011,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -22285,7 +22087,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -22450,7 +22251,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -22555,7 +22355,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -22690,7 +22489,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &695622932
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22705,7 +22503,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -22782,7 +22579,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -22858,7 +22654,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -22934,7 +22729,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -23010,7 +22804,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -23174,7 +22967,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -23250,7 +23042,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -23342,7 +23133,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -23439,7 +23229,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &713213134
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23454,7 +23243,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -23531,7 +23319,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -23672,7 +23459,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -23748,7 +23534,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -23824,7 +23609,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -23886,7 +23670,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -23997,7 +23780,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &722057660
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24012,7 +23794,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -24089,7 +23870,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -24166,7 +23946,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -24343,7 +24122,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &733606150
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24358,7 +24136,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -24435,7 +24212,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -24583,7 +24359,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &748606751
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24598,7 +24373,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -24675,7 +24449,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -24816,7 +24589,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -24956,7 +24728,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -25046,7 +24817,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -25143,7 +24913,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &766643548
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25158,7 +24927,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -25235,7 +25003,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -25312,7 +25079,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -25418,7 +25184,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -25563,7 +25328,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &779349426
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25578,7 +25342,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -25656,7 +25419,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -25746,7 +25508,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -25822,7 +25583,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -25898,7 +25658,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -26021,7 +25780,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -26227,7 +25985,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -26303,7 +26060,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -26380,7 +26136,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -26535,7 +26290,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -26627,7 +26381,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -26703,7 +26456,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -26779,7 +26531,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -26855,7 +26606,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -26931,7 +26681,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -27073,7 +26822,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -27163,7 +26911,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -27239,7 +26986,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -27301,7 +27047,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -27407,7 +27152,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -27484,7 +27228,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -27574,7 +27317,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -27666,7 +27408,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   - {fileID: 2100000, guid: e65d5435dcb5b52458bd85de4cff7b49, type: 2}
@@ -27744,7 +27485,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -27995,7 +27735,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -28071,7 +27810,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -28147,7 +27885,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -28337,7 +28074,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &854055452
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28352,7 +28088,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -28461,7 +28196,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -28537,7 +28271,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -28632,7 +28365,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -28782,7 +28514,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -28872,7 +28603,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -29094,7 +28824,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -29191,7 +28920,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &900065211
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29206,7 +28934,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -29366,7 +29093,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -29463,7 +29189,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &902463718
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29478,7 +29203,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -29606,7 +29330,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -29682,7 +29405,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -29758,7 +29480,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -29834,7 +29555,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -30081,7 +29801,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -30157,7 +29876,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -30233,7 +29951,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -30309,7 +30026,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -30538,7 +30254,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -30614,7 +30329,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -30755,7 +30469,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -30831,7 +30544,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -31062,7 +30774,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -31154,7 +30865,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -31231,7 +30941,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -31321,7 +31030,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -31397,7 +31105,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -31478,7 +31185,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -31540,7 +31246,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -31630,7 +31335,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -31741,7 +31445,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32094,7 +31797,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32191,7 +31893,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &969547497
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32206,7 +31907,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -32283,7 +31983,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32345,7 +32044,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32500,7 +32198,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32576,7 +32273,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32652,7 +32348,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32728,7 +32423,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32804,7 +32498,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32880,7 +32573,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -32977,7 +32669,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &981477550
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32992,7 +32683,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -33179,7 +32869,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &983853709
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33194,7 +32883,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -33336,7 +33024,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -33412,7 +33099,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -33504,7 +33190,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -33580,7 +33265,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -33677,7 +33361,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1001449909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33692,7 +33375,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -33769,7 +33451,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -33845,7 +33526,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -33937,7 +33617,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 416feab9bd75f3f45bd8457702ca11d6, type: 2}
   m_StaticBatchInfo:
@@ -34013,7 +33692,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -34089,7 +33767,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -34165,7 +33842,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -34241,7 +33917,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -34401,7 +34076,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1025236583
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34416,7 +34090,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -34700,7 +34373,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -34776,7 +34448,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -34873,7 +34544,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1045369277
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34888,7 +34558,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -34965,7 +34634,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -35041,7 +34709,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -35116,7 +34783,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 17dbc2ed2ec06b74b89c05a4e6b8f8b7, type: 2}
   m_StaticBatchInfo:
@@ -35204,7 +34870,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -35266,7 +34931,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -35356,7 +35020,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -35451,6 +35114,34 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1060166395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1060166396}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1060166396
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1060166395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.2798357, y: -0.12946913, z: -3.0310497}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1064115559
 GameObject:
   m_ObjectHideFlags: 0
@@ -35519,7 +35210,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1064115563
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35534,7 +35224,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -35611,7 +35300,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -35641,6 +35329,165 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1065444862}
   m_Mesh: {fileID: 4300000, guid: ba28af13f0b57554e85113dca2014b6d, type: 3}
+--- !u!1001 &1067838611
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224112367609377934, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736440187461434, guid: 91a36116aca324153b67f2acf7e54f9b, type: 2}
+      propertyPath: m_Name
+      value: Level1 InGameMenuCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051180017986882, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051180017986882, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114292610754767328, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114292610754767328, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114901147383917154, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114901147383917154, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224262455314468166, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -48
+      objectReference: {fileID: 0}
+    - target: {fileID: 224072496937245626, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 96.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 224762232560857904, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114070207498859240, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114070207498859240, guid: 91a36116aca324153b67f2acf7e54f9b,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 91a36116aca324153b67f2acf7e54f9b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1069403178
 GameObject:
   m_ObjectHideFlags: 0
@@ -35687,7 +35534,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -35851,7 +35697,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -35948,7 +35793,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1079005697
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35963,7 +35807,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -36040,7 +35883,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -36137,7 +35979,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1080171966
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36152,7 +35993,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -36317,7 +36157,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 55a3f2d149396114bb1acc285027dbf5, type: 2}
   - {fileID: 2100000, guid: 7772e5b31d4cf5541b443b4fb7d33716, type: 2}
@@ -36415,7 +36254,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1087793985
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36430,7 +36268,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -36670,7 +36507,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -36746,7 +36582,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -36887,7 +36722,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -37109,7 +36943,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -37206,7 +37039,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1101536943
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37221,7 +37053,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -37440,7 +37271,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1102284981
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37455,7 +37285,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -37532,7 +37361,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -37608,7 +37436,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -37796,7 +37623,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -37919,7 +37745,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -37995,7 +37820,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -38086,7 +37910,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -38162,7 +37985,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -38238,7 +38060,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -38554,7 +38375,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1131511666
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38569,7 +38389,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -38646,7 +38465,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -38722,7 +38540,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -38813,7 +38630,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -38889,7 +38705,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -38965,7 +38780,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -39041,7 +38855,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -39117,7 +38930,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -39193,7 +39005,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -39284,7 +39095,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -39462,7 +39272,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1157009997
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39477,7 +39286,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -39554,7 +39362,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -39630,7 +39437,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -39737,7 +39543,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -39834,7 +39639,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1165342831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39849,7 +39653,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -39936,7 +39739,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -40031,7 +39833,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -40107,7 +39908,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -40183,7 +39983,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -40340,7 +40139,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -40416,7 +40214,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -40492,7 +40289,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -40664,7 +40460,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -40802,7 +40597,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -40878,7 +40672,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -41022,7 +40815,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -41112,7 +40904,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -41209,7 +41000,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1220534460
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41224,7 +41014,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -41491,7 +41280,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1229652091
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41506,7 +41294,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -41583,7 +41370,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -41747,7 +41533,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -41885,7 +41670,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -42047,7 +41831,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1239675501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42062,7 +41845,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -42201,7 +41983,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -42277,7 +42058,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -42437,7 +42217,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -42663,7 +42442,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -42810,7 +42588,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1260670538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42825,7 +42602,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -42902,7 +42678,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -42978,7 +42753,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -43054,7 +42828,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -43192,7 +42965,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -43323,7 +43095,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -43399,7 +43170,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -43605,7 +43375,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -43681,7 +43450,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -43757,7 +43525,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -43849,7 +43616,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 416feab9bd75f3f45bd8457702ca11d6, type: 2}
   m_StaticBatchInfo:
@@ -43925,7 +43691,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -44001,7 +43766,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -44098,7 +43862,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1293596463
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44113,7 +43876,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -44211,7 +43973,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1295056686
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44226,7 +43987,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -44303,7 +44063,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -44380,7 +44139,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -44470,7 +44228,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -44676,7 +44433,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -44897,7 +44653,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -44973,7 +44728,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -45130,7 +44884,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -45255,7 +45008,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 416feab9bd75f3f45bd8457702ca11d6, type: 2}
   m_StaticBatchInfo:
@@ -45397,7 +45149,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -45474,7 +45225,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -45564,7 +45314,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -45640,7 +45389,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -45716,7 +45464,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -45813,7 +45560,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1367916005
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45828,7 +45574,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -45905,7 +45650,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -45981,7 +45725,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -46057,7 +45800,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -46134,7 +45876,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -46310,7 +46051,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1376762015
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46325,7 +46065,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -46423,7 +46162,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1377688965
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46438,7 +46176,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -46515,7 +46252,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -46679,7 +46415,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -46755,7 +46490,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -46896,7 +46630,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -46991,7 +46724,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -47068,7 +46800,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -47263,7 +46994,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -47463,7 +47193,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -47569,7 +47298,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -47800,7 +47528,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -48143,7 +47870,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -48240,7 +47966,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1419188147
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48255,7 +47980,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -48383,7 +48107,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -48504,7 +48227,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -48599,7 +48321,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -48745,7 +48466,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1449885958
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48760,7 +48480,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -48837,7 +48556,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 55a3f2d149396114bb1acc285027dbf5, type: 2}
   - {fileID: 2100000, guid: 7772e5b31d4cf5541b443b4fb7d33716, type: 2}
@@ -49002,7 +48720,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1453896237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49017,7 +48734,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -49094,7 +48810,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -49171,7 +48886,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -49261,7 +48975,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -49402,7 +49115,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -49499,7 +49211,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1461390759
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49514,7 +49225,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -49612,7 +49322,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1462248732
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49627,7 +49336,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -49870,7 +49578,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1463150684
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49885,7 +49592,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -50106,7 +49812,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -50182,7 +49887,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -50279,7 +49983,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1472609487
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50294,7 +49997,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -50458,7 +50160,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1475815282
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50473,7 +50174,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -50550,7 +50250,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -50626,7 +50325,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -50702,7 +50400,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -50866,7 +50563,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -50942,7 +50638,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -51039,7 +50734,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1489249087
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51054,7 +50748,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -51152,7 +50845,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1490702896
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51167,7 +50859,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -51330,7 +51021,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1493743869
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51345,7 +51035,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -51508,7 +51197,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1494012831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51523,7 +51211,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -51704,7 +51391,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -51785,7 +51471,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -51861,7 +51546,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -52069,7 +51753,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -52233,7 +51916,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -52309,7 +51991,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -52400,7 +52081,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -52562,7 +52242,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1528566568
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52577,7 +52256,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -52694,7 +52372,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1534214526
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52709,7 +52386,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -52916,7 +52592,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -52992,7 +52667,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -53068,7 +52742,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -53165,7 +52838,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1546050531
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53180,7 +52852,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -53273,7 +52944,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -53370,7 +53040,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1552293339
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53385,7 +53054,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -53462,7 +53130,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -53538,7 +53205,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -53619,7 +53285,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -53778,7 +53443,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -53854,7 +53518,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -53951,7 +53614,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1563502518
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53966,7 +53628,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -54043,7 +53704,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -54141,7 +53801,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1567184815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -54156,7 +53815,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -54275,7 +53933,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -54365,7 +54022,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -54441,7 +54097,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -54517,7 +54172,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -54593,7 +54247,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -54669,7 +54322,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 55a3f2d149396114bb1acc285027dbf5, type: 2}
   - {fileID: 2100000, guid: 7772e5b31d4cf5541b443b4fb7d33716, type: 2}
@@ -54910,7 +54562,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -55036,7 +54687,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -55112,7 +54762,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -55309,7 +54958,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -55385,7 +55033,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -55461,7 +55108,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -55537,7 +55183,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -55675,7 +55320,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -55772,7 +55416,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1611460781
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55787,7 +55430,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -56024,7 +55666,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -56253,7 +55894,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -56482,7 +56122,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -56642,7 +56281,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -56718,7 +56356,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -56944,7 +56581,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -57049,7 +56685,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -57126,7 +56761,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -57392,7 +57026,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -57468,7 +57101,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -57544,7 +57176,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -57620,7 +57251,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -57800,7 +57430,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -58029,7 +57658,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -58126,7 +57754,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1687645543
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -58141,7 +57768,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -58172,6 +57798,68 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1687645539}
   m_Mesh: {fileID: 4300000, guid: 3b37530772fbbb441b40078e356e44b3, type: 3}
+--- !u!1 &1689330321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1689330324}
+  - component: {fileID: 1689330323}
+  - component: {fileID: 1689330322}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1689330322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1689330321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1689330323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1689330321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1689330324
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1689330321}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1703532468
 GameObject:
   m_ObjectHideFlags: 0
@@ -58218,7 +57906,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -58294,7 +57981,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -58489,7 +58175,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -58565,7 +58250,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -58641,7 +58325,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -58717,7 +58400,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -58793,7 +58475,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -58950,7 +58631,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -59026,7 +58706,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -59169,7 +58848,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -59245,7 +58923,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -59337,7 +59014,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -59413,7 +59089,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -59510,7 +59185,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1743964134
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -59525,7 +59199,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -59709,7 +59382,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -59850,7 +59522,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -59957,7 +59628,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -60033,7 +59703,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -60185,7 +59854,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1770884455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -60200,7 +59868,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -60277,7 +59944,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -60353,7 +60019,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -60462,7 +60127,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -60538,7 +60202,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -60614,7 +60277,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -60736,7 +60398,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -60828,7 +60489,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: f3fa88374369eec409f8ad9f4329f1ac, type: 2}
   m_StaticBatchInfo:
@@ -61038,7 +60698,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -61150,7 +60809,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1795427778
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -61165,7 +60823,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -61242,7 +60899,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -61443,7 +61099,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1808375671
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -61458,7 +61113,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -61535,7 +61189,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -61611,7 +61264,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -61720,7 +61372,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -61796,7 +61447,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -61872,7 +61522,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -61948,7 +61597,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62024,7 +61672,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62101,7 +61748,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62191,7 +61837,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62267,7 +61912,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62362,7 +62006,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62438,7 +62081,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62515,7 +62157,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62626,7 +62267,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1841807965
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -62641,7 +62281,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -62718,7 +62357,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62794,7 +62432,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62870,7 +62507,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -62946,7 +62582,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -63087,7 +62722,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -63163,7 +62797,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -63239,7 +62872,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -63334,7 +62966,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -63410,7 +63041,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -63472,7 +63102,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -63998,7 +63627,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -64075,7 +63703,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -64165,7 +63792,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -64241,7 +63867,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -64318,7 +63943,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -64409,7 +64033,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -64520,7 +64143,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1905113613
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -64535,7 +64157,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -64612,7 +64233,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -64710,7 +64330,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1913543758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -64725,7 +64344,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -64802,7 +64420,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -64894,7 +64511,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -64970,7 +64586,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -65046,7 +64661,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -65187,7 +64801,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -65279,7 +64892,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -65486,7 +65098,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -65581,7 +65192,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -65657,7 +65267,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -65733,7 +65342,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -65809,7 +65417,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -66016,7 +65623,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -66107,7 +65713,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -66197,7 +65802,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -66340,7 +65944,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -66431,7 +66034,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -66542,7 +66144,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1970117467
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -66557,7 +66158,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -66634,7 +66234,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -66875,7 +66474,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -67035,7 +66633,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1986371233
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -67050,7 +66647,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -67127,7 +66723,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -67268,7 +66863,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -67474,7 +67068,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -67615,7 +67208,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -67691,7 +67283,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -67832,7 +67423,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -67924,7 +67514,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -68021,7 +67610,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &2010950868
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -68036,7 +67624,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -68266,7 +67853,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -68428,7 +68014,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &2018904505
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -68443,7 +68028,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -68536,7 +68120,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -68613,7 +68196,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -68703,7 +68285,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -68779,7 +68360,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -68855,7 +68435,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -68952,7 +68531,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &2035825938
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -68967,7 +68545,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -69045,7 +68622,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -69298,7 +68874,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -69374,7 +68949,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -69455,7 +69029,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -69648,7 +69221,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -69739,7 +69311,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -69829,7 +69400,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -69990,7 +69560,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -70066,7 +69635,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -70142,7 +69710,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -70218,7 +69785,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -70361,7 +69927,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -70459,7 +70024,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &2078309829
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -70474,7 +70038,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -70551,7 +70114,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -70627,7 +70189,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -70821,7 +70382,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &2088259888
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -70836,7 +70396,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -70928,7 +70487,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -71122,7 +70680,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -71228,7 +70785,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 289f010ab92967f4fbc66edbc8919faa, type: 2}
   m_StaticBatchInfo:
@@ -71375,7 +70931,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &2108698951
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -71390,7 +70945,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: df64f9bfd656dbb438116aef7dfacbb2, type: 2}
   - {fileID: 2100000, guid: b0ab958012d4ec74fb5e2b40c026d701, type: 2}
@@ -71467,7 +71021,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -71543,7 +71096,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -71686,7 +71238,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -71776,7 +71327,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -71852,7 +71402,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -71928,7 +71477,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -72088,7 +71636,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -72311,7 +71858,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -72388,7 +71934,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -72478,7 +72023,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -72554,7 +72098,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:
@@ -72630,7 +72173,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ae20efba4feaa0947b86f93f72ee2caf, type: 2}
   m_StaticBatchInfo:

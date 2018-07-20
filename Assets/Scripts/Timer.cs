@@ -13,9 +13,9 @@ public class Timer : MonoBehaviour {
 
 	void Update() {
 		timer -= Time.deltaTime;
-		timerSeconds.text = timer.ToString ("f2");
+		timerSeconds.text = "Timer: " + timer.ToString ("f2");
 		if (timer <= 0.00) {
-			timerSeconds.text = "0.00";
+			timerSeconds.text = "Timer: 0.00";
 		}
 	}
 }

@@ -21,6 +21,8 @@ public class GameOver : MonoBehaviour {
 	void Update() {
 		if (timerManager.timer <= 0) {
 			anim.SetTrigger("GameOver");
+			GameObject.Find("Player_Cat").GetComponent<CatControl>().enabled = false;
+			GameObject.Find("Player_Cat").GetComponent<Animator>().enabled = false;
             finalScore = scoreManager.getScore();
             highScore.updateScore();
 		}
@@ -30,4 +32,3 @@ public class GameOver : MonoBehaviour {
         return finalScore;
     }
 }
-

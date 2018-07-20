@@ -12,7 +12,7 @@ public class GameMenu : MonoBehaviour {
 	public void StartGame() {
 		Time.timeScale = 1f;
 		Debug.LogError ("Game Start");
-		SceneManager.LoadScene ("demoScene");
+		SceneManager.LoadScene ("Level1");
 	}
 
 	public void QuitGame () {
@@ -22,6 +22,6 @@ public class GameMenu : MonoBehaviour {
 
 	public void BackToMenu() {
 		Debug.LogError ("Back To Menu");
-		SceneManager.LoadScene ("GameMenuScene");
+		SceneManager.LoadScene ("Level1GameMenuScene");
 	}
 }
