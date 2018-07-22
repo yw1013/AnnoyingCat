@@ -12,43 +12,43 @@ public class PlayerFollow : MonoBehaviour {
     public float mouseY;
     private float rotX = 0f;
     private float rotY = 0f;
-    //private bool lockMode;
+
+    private bool freecam;
 
 
 	void Start () {
         Vector3 rot = transform.localRotation.eulerAngles;
         rotX = rot.x;
         rotY = rot.y;
-        //lockMode = false;
+        freecam = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
-	private void Update()
+	void Update()
 	{
-        mouseX = Input.GetAxis("Mouse X");
-        mouseY = Input.GetAxis("Mouse Y");
+        if (Input.GetKey(KeyCode.L))
+        {
+            freecam = !freecam;
+        }
 
-        rotY += mouseX * inputSensitivity * Time.deltaTime;
-        rotX += mouseY * inputSensitivity * Time.deltaTime;
+        if (freecam)
+        {
+            mouseX = Input.GetAxis("Mouse X");
+            mouseY = Input.GetAxis("Mouse Y");
 
-        rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
+            rotY += mouseX * inputSensitivity * Time.deltaTime;
+            rotX += mouseY * inputSensitivity * Time.deltaTime;
 
-        Quaternion localRotation = Quaternion.Euler(rotX, rotY, 0f);
-        transform.rotation = localRotation;
+            rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
 
-        //if(Input.GetKey(KeyCode.L)) {
-        //    if (!lockMode) {
-        //        Cursor.lockState = CursorLockMode.Locked;
-        //        Cursor.visible = lockMode;
-        //        lockMode = true;
-        //    }
-        //    if (lockMode) {
-        //        Cursor.lockState = CursorLockMode.None;
-        //        Cursor.visible = lockMode;
-        //        lockMode = false;
-        //    }
-        //}
+            Quaternion localRotation = Quaternion.Euler(rotX, rotY, 0f);
+            transform.rotation = localRotation;
+        }
+
+        if (!freecam) {
+            transform.rotation = CamFollowObj.transform.rotation;
+        }
 	}
 
 	void LateUpdate () {
