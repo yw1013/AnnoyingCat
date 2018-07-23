@@ -40,30 +40,45 @@ public class CatControl : MonoBehaviour {
             anim.SetFloat("vert", 1f);
 
         }
-        if (Input.GetButtonDown("Vertical") && Input.GetButtonDown("Shift"))
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            anim.SetTrigger("cry");
+        }
+
+        if (Input.GetButtonDown("Vertical"))
         {
             anim.SetFloat("vert", 1f);
+
+        }
+
+        if (Input.GetButtonDown("Shift")) {
             shiftPressed = true;
+            anim.SetBool("shift", shiftPressed);
+        }
+
+        if (Input.GetButtonUp("Shift"))
+        {
+            shiftPressed = false;
             anim.SetBool("shift", shiftPressed);
         }
 
         if (Input.GetButton("Vertical"))
         {
-            var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
-            //transform.Translate(0, 0, z);
-            if (shiftPressed) {
-                z *= 1.8f;
+            if (shiftPressed)
+            {
+                speed = 1.9f;
             }
+            else
+            {
+                speed = 1.1f;
+            }
+            var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
             transform.Translate(0, 0, z);
         }
 
         if (Input.GetButtonUp("Vertical")) {
             anim.SetFloat("vert", 0f);
-            if (Input.GetButtonUp("Shift"))
-            {
-                shiftPressed = false;
-                anim.SetBool("shift", shiftPressed);
-            }
         }
 
         if (Input.GetButtonDown("Fire1")) {

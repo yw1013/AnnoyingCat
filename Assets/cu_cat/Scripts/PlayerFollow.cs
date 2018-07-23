@@ -27,7 +27,7 @@ public class PlayerFollow : MonoBehaviour {
 
 	void Update()
 	{
-        if (Input.GetKey(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             freecam = !freecam;
         }
