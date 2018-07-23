@@ -15625,7 +15625,7 @@ Transform:
   m_LocalScale: {x: 0.19999999, y: 1, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &499363144
 GameObject:
@@ -18458,6 +18458,10 @@ Prefab:
       propertyPath: scoreManager
       value: 
       objectReference: {fileID: 1439265049}
+    - target: {fileID: 1862376176441662, guid: f0dcb551991c6439a9fd253ba4f352c0, type: 2}
+      propertyPath: m_TagString
+      value: mouse
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f0dcb551991c6439a9fd253ba4f352c0, type: 2}
   m_IsPrefabParent: 0
@@ -59619,8 +59623,26 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1689997846 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1773270102101788, guid: 91473ce30989f415fa41cf767df901c6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1742503629}
+--- !u!114 &1689997847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1689997846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2678b9183d84c869151e7007b9e817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1439265049}
+  scoreVal: 50
 --- !u!1 &1703532468
 GameObject:
   m_ObjectHideFlags: 0
@@ -60958,6 +60980,10 @@ Prefab:
     - target: {fileID: 4154540831095002, guid: 91473ce30989f415fa41cf767df901c6, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1773270102101788, guid: 91473ce30989f415fa41cf767df901c6, type: 2}
+      propertyPath: m_TagString
+      value: mouse
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91473ce30989f415fa41cf767df901c6, type: 2}
@@ -62523,7 +62549,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b1f7b5721b4b14277b14f7e543bad4ab, type: 2}
+      objectReference: {fileID: 2100000, guid: 8cda66a05821e493eb8e4b57571c1bac, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2f900db4b05e4977bfa2aa00e5461ac, type: 2}
   m_IsPrefabParent: 0

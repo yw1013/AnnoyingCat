@@ -8,10 +8,10 @@ public class CatControl : MonoBehaviour {
     Rigidbody rb;
     private bool isGrounded;
     private bool shiftPressed;
+    private bool isTurning;
     public float speed = 1.6f;
     public float jumpableGroundNormalMaxAngle = 45f;
     public bool closeToJumpableGround;
-    public GameObject mouse;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +19,7 @@ public class CatControl : MonoBehaviour {
         rb = this.GetComponent<Rigidbody>();
         isGrounded = false;
         shiftPressed = false;
+        isTurning = false;
         anim.SetBool("isGrounded", isGrounded);
 	}
 	
@@ -30,29 +31,28 @@ public class CatControl : MonoBehaviour {
         //Therefore, an additional raycast approach is used to check for close ground
         if (CharacterCommon.CheckGroundNear(this.transform.position, jumpableGroundNormalMaxAngle, 0.1f, 1f, out closeToJumpableGround))             isGrounded = true;
 
+        //Horizontal
+        if (Input.GetButtonDown("Horizontal"))
+        {
+            isTurning = true;
+            anim.SetBool("turn", isTurning);
+        }
+
+
         if (Input.GetButton("Horizontal")) {
             var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150f;
             transform.Rotate(0, x, 0);
         }
 
-        if (Input.GetButtonDown("Vertical"))
+        if (Input.GetButtonUp("Horizontal"))
         {
-            anim.SetFloat("vert", 1f);
-
+            isTurning = false;
+            anim.SetBool("turn", isTurning);
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
+        //Shift
+        if (Input.GetButtonDown("Shift"))
         {
-            anim.SetTrigger("cry");
-        }
-
-        if (Input.GetButtonDown("Vertical"))
-        {
-            anim.SetFloat("vert", 1f);
-
-        }
-
-        if (Input.GetButtonDown("Shift")) {
             shiftPressed = true;
             anim.SetBool("shift", shiftPressed);
         }
@@ -61,6 +61,13 @@ public class CatControl : MonoBehaviour {
         {
             shiftPressed = false;
             anim.SetBool("shift", shiftPressed);
+        }
+
+        //Vertical
+        if (Input.GetButtonDown("Vertical"))
+        {
+            anim.SetFloat("vert", 1f);
+
         }
 
         if (Input.GetButton("Vertical"))
@@ -74,11 +81,17 @@ public class CatControl : MonoBehaviour {
                 speed = 1.1f;
             }
             var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
-            transform.Translate(0, 0, z);
+            transform.Translate(0, 0, Mathf.Abs(z));
         }
 
         if (Input.GetButtonUp("Vertical")) {
             anim.SetFloat("vert", 0f);
+        }
+
+        //Other Functions
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            anim.SetTrigger("cry");
         }
 
         if (Input.GetButtonDown("Fire1")) {
@@ -104,13 +117,12 @@ public class CatControl : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision collision)
 	{
-        if (collision.gameObject.name == "Mouse_d") {
+        if (collision.gameObject.tag == "mouse") {
             anim.SetTrigger("caught");
-            Destroy(mouse);
+            Destroy(collision.gameObject);
         }
 	}
 
-    //This is a physics callback
     void OnCollisionStay(Collision collision)     {         isGrounded = true;
 		if (anim != null) {
 			anim.SetBool ("isGrounded", isGrounded);
