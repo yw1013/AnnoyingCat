@@ -4,9 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour {
+	Animator anim;
+
+	void Awake() {
+		anim = GetComponent<Animator>();
+	}
 
 	void Start () {
 		Screen.SetResolution (1920, 1080, true);
+		anim.SetTrigger("Instruction");
 	}
 
 	public void StartGame() {
