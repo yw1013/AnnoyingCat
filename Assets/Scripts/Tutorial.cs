@@ -5,6 +5,7 @@ using UnityEngine;
 public class Tutorial : MonoBehaviour {
 
 	public Timer timerManager;
+	public TimeSlider timeSlider;
 
 	Animator anim;
 
@@ -19,9 +20,9 @@ public class Tutorial : MonoBehaviour {
 	}
 		
 	void Update() {
-		if (timerManager.timer <= 0) {
+		if (timeSlider.time <= 0.0) {
+			Debug.LogError ("GameOver");
 			anim.SetTrigger("GameOver");
-
 			GameObject.Find("Player_Cat").GetComponent<CatControl>().enabled = false;
 			GameObject.Find("Player_Cat").GetComponent<Animator>().enabled = false;
 		}

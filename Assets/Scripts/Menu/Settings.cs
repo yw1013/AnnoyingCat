@@ -15,21 +15,12 @@ public class Settings : MonoBehaviour {
 			volumeSlider = temp.GetComponent<Slider> ();
 			if (volumeSlider != null) {
 				float masterVolume = 0f;
-//				bool result =  audioMixer.GetFloat("volume", out value);
-//				if(result){
-//					Debug.LogError (value);
-//					volumeSlider.normalizedValue = value;
-//				}else{
-//					volumeSlider.normalizedValue = 0f;
-//				}
-
 				audioMixer.GetFloat ("volume", out masterVolume);
 				volumeSlider.value = masterVolume;
 			}
 		}
 	}
-
-
+		
 	public void SetVolume (float volume) {
 		audioMixer.SetFloat ("volume", volume);		
 	}
@@ -37,9 +28,9 @@ public class Settings : MonoBehaviour {
 	public float GetVolume(){
 		float value;
 		bool result =  audioMixer.GetFloat("volume", out value);
-		if(result){
+		if(result) {
 			return value;
-		}else{
+		} else{
 			return 0f;
 		}
 	}
