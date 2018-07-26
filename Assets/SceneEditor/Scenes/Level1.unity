@@ -34928,7 +34928,7 @@ Prefab:
     - target: {fileID: 114612435373063060, guid: 092a261a2c5c64b2491d8f67ab85d4e1,
         type: 2}
       propertyPath: m_Text
-      value: 'Timer: 100.00'
+      value: 'Timer:'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092a261a2c5c64b2491d8f67ab85d4e1, type: 2}

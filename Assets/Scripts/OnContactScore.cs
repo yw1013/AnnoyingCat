@@ -18,8 +18,10 @@ public class OnContactScore : MonoBehaviour {
 	{
         if (!knocked) {
             if (collision.gameObject.tag == "Player") {
-                scoreManager.addScore(scoreVal);
-                knocked = true;
+				if (scoreManager != null) {
+					scoreManager.addScore (scoreVal);
+					knocked = true;
+				}
             }
         }
 	}

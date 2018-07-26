@@ -12,9 +12,13 @@ public class GameMenu : MonoBehaviour {
 
 	void Start () {
 		Screen.SetResolution (1920, 1080, true);
-		anim.SetTrigger("Instruction");
 	}
 
+	public void Tutorial() {
+		Time.timeScale = 1f;
+		Debug.LogError ("Game Tutorial");
+		SceneManager.LoadScene ("Level1Tutorial");
+	}
 	public void StartGame() {
 		Time.timeScale = 1f;
 		Debug.LogError ("Game Start");

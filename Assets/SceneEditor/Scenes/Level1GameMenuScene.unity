@@ -7041,7 +7041,18 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 95566546223688158, guid: dc1eaf602c9b34927b351a881cd6e283,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 87a5554b3310b47a7850ef051616a2c3, type: 2}
+    - target: {fileID: 114799920263529882, guid: dc1eaf602c9b34927b351a881cd6e283,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Tutorial
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 95566546223688158, guid: dc1eaf602c9b34927b351a881cd6e283, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: dc1eaf602c9b34927b351a881cd6e283, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1107491051
