@@ -2533,7 +2533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreManager: {fileID: 1303435482}
-  scoreVal: 0
+  scoreVal: 5
 --- !u!1 &64043614
 GameObject:
   m_ObjectHideFlags: 0
@@ -12660,7 +12660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreManager: {fileID: 1303435482}
-  scoreVal: 0
+  scoreVal: 5
 --- !u!1 &397858696
 GameObject:
   m_ObjectHideFlags: 0
@@ -12753,7 +12753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreManager: {fileID: 1303435482}
-  scoreVal: 0
+  scoreVal: 5
 --- !u!1001 &402061088
 Prefab:
   m_ObjectHideFlags: 0
@@ -70356,7 +70356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreManager: {fileID: 1303435482}
-  scoreVal: 0
+  scoreVal: 5
 --- !u!1 &2066433980
 GameObject:
   m_ObjectHideFlags: 0
