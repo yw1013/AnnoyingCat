@@ -13,7 +13,7 @@ public class TimeSlider : MonoBehaviour {
 //		slider.maxValue = 10f;
 //		slider.minValue = 0f;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		time -= Time.deltaTime;
