@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour {
 
-	public Timer timerManager;
+	public TimeSlider timeSlider;
     public ScoreManager scoreManager;
     private int finalScore;
     public HighScoreKeeper highScore;
@@ -20,7 +20,7 @@ public class GameOver : MonoBehaviour {
 
 
 	void Update() {
-		if (timerManager.timer <= 0) {
+		if (timeSlider.time <= 0) {
 			anim.SetTrigger("GameOver");
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;

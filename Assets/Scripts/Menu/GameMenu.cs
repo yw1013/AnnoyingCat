@@ -4,11 +4,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour {
+	Animator anim;
+
+	void Awake() {
+		anim = GetComponent<Animator>();
+	}
 
 	void Start () {
 		Screen.SetResolution (1920, 1080, true);
 	}
 
+	public void Tutorial() {
+		Time.timeScale = 1f;
+		Debug.LogError ("Game Tutorial");
+		SceneManager.LoadScene ("Level1Tutorial");
+	}
 	public void StartGame() {
 		Time.timeScale = 1f;
 		Debug.LogError ("Game Start");
