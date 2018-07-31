@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010429183578}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010429183578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011787821360}
+  - component: {fileID: 33000012717083636}
+  - component: {fileID: 23000011318721520}
+  - component: {fileID: 54000010585846630}
+  - component: {fileID: 65000010918258166}
+  - component: {fileID: 114000011254773366}
+  m_Layer: 0
+  m_Name: piano
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011787821360
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010429183578}
+  m_LocalRotation: {x: -0, y: -0.9999723, z: -0, w: 0.007448999}
+  m_LocalPosition: {x: 1.3587365, y: 0.8428812, z: 2.899}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -179.17201, z: 0}
+--- !u!23 &23000011318721520
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010429183578}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 252f4655dfc88d340aec671a274c777e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33000012717083636
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010429183578}
+  m_Mesh: {fileID: 4300000, guid: 3014e1595e19e6a4d8a58fdd641c0b29, type: 3}
+--- !u!54 &54000010585846630
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010429183578}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65000010918258166
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010429183578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.72102964, y: 0.15178685, z: 2.12618}
+  m_Center: {x: 0, y: -0.000000007450581, z: 0}
+--- !u!114 &114000011254773366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010429183578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e80d7d6c64f2b49a906198420a2bb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCollisionForce: 1
+  CollisionForce: 100
+  UseHp: 0
+  MaxHp: 1000
+  CollisionSounds: []
+  UseThisObject: 0
+  CollisionPrefabs: []
+  CollisionEffectDuration: 0
+  BreakingSounds:
+  - {fileID: 8300000, guid: 047d5725141270e46aa6dc96a9b5e56f, type: 3}
+  - {fileID: 8300000, guid: c1151e87e2243e7439bcc87e1d7e362e, type: 3}
+  BrokenPrefabs:
+  - {fileID: 4000011359045624, guid: 518c6a3558160e3428958636cc735923, type: 2}
+  BreakDelay: 0
+  AfterDelayBrokenPrefabs: []
+  ApplyExplosionForce: 0
+  ExplosionForce: 200
+  ExplosionRadius: 20
+  CanReset: 1
+  UseAutoDestruct: 1
+  AutoDestructTimer: 10
+  currentHp: 0
+  broken: 0
+  delayTimer: 0
+  destructionTimer: 0

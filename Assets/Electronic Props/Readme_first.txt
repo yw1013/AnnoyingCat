@@ -1,0 +1,1 @@
+Before using BreakableDemoScene scene, your should import "Characters" asset from standart assets. 

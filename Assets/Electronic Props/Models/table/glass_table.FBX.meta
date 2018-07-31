@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 6e54819e2176f234cad88536163306d0
+timeCreated: 1486631092
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder002
+    100004: Cylinder003_v_001
+    100006: Cylinder003_v_002
+    100008: Cylinder003_v_003
+    100010: Cylinder003_v_004
+    100012: Cylinder003_v_005
+    100014: Cylinder003_v_006
+    100016: Cylinder003_v_007
+    100018: Cylinder003_v_008
+    100020: Cylinder003_v_009
+    100022: Cylinder003_v_010
+    100024: Cylinder003_v_011
+    100026: Cylinder003_v_012
+    100028: Cylinder003_v_013
+    100030: Cylinder003_v_014
+    400000: //RootNode
+    400002: Cylinder002
+    400004: Cylinder003_v_001
+    400006: Cylinder003_v_002
+    400008: Cylinder003_v_003
+    400010: Cylinder003_v_004
+    400012: Cylinder003_v_005
+    400014: Cylinder003_v_006
+    400016: Cylinder003_v_007
+    400018: Cylinder003_v_008
+    400020: Cylinder003_v_009
+    400022: Cylinder003_v_010
+    400024: Cylinder003_v_011
+    400026: Cylinder003_v_012
+    400028: Cylinder003_v_013
+    400030: Cylinder003_v_014
+    2300000: //RootNode
+    2300002: Cylinder002
+    2300004: Cylinder003_v_001
+    2300006: Cylinder003_v_002
+    2300008: Cylinder003_v_003
+    2300010: Cylinder003_v_004
+    2300012: Cylinder003_v_005
+    2300014: Cylinder003_v_006
+    2300016: Cylinder003_v_007
+    2300018: Cylinder003_v_008
+    2300020: Cylinder003_v_009
+    2300022: Cylinder003_v_010
+    2300024: Cylinder003_v_011
+    2300026: Cylinder003_v_012
+    2300028: Cylinder003_v_013
+    2300030: Cylinder003_v_014
+    3300000: //RootNode
+    3300002: Cylinder002
+    3300004: Cylinder003_v_001
+    3300006: Cylinder003_v_002
+    3300008: Cylinder003_v_003
+    3300010: Cylinder003_v_004
+    3300012: Cylinder003_v_005
+    3300014: Cylinder003_v_006
+    3300016: Cylinder003_v_007
+    3300018: Cylinder003_v_008
+    3300020: Cylinder003_v_009
+    3300022: Cylinder003_v_010
+    3300024: Cylinder003_v_011
+    3300026: Cylinder003_v_012
+    3300028: Cylinder003_v_013
+    3300030: Cylinder003_v_014
+    4300000: Cylinder002
+    4300002: Cylinder003_v_001
+    4300004: Cylinder003_v_002
+    4300006: Cylinder003_v_003
+    4300008: Cylinder003_v_004
+    4300010: Cylinder003_v_005
+    4300012: Cylinder003_v_006
+    4300014: Cylinder003_v_007
+    4300016: Cylinder003_v_008
+    4300018: Cylinder003_v_009
+    4300020: Cylinder003_v_010
+    4300022: Cylinder003_v_011
+    4300024: Cylinder003_v_012
+    4300026: Cylinder003_v_013
+    4300028: Cylinder003_v_014
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.048
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
