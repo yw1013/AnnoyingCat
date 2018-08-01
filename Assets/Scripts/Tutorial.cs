@@ -23,7 +23,6 @@ public class Tutorial : MonoBehaviour {
 		Cursor.lockState = CursorLockMode.None;
 		Cursor.visible = true;
 		if (timeSlider.time <= 0.0) {
-			Debug.LogError ("GameOver");
 			anim.SetTrigger("GameOver");
 			GameObject.Find("Player_Cat").GetComponent<CatControl>().enabled = false;
 			GameObject.Find("Player_Cat").GetComponent<Animator>().enabled = false;
