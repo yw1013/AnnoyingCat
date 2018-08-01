@@ -4674,7 +4674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreManager: {fileID: 1303435482}
-  scoreVal: -75
+  scoreVal: -50
 --- !u!114 &117133211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27863,7 +27863,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4146698010612028, guid: 71367b31cef17d942bfbaf01801d2aea, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.47
+      value: -5.59
       objectReference: {fileID: 0}
     - target: {fileID: 4146698010612028, guid: 71367b31cef17d942bfbaf01801d2aea, type: 2}
       propertyPath: m_LocalPosition.y
@@ -27871,7 +27871,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4146698010612028, guid: 71367b31cef17d942bfbaf01801d2aea, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.63
+      value: 3.58
       objectReference: {fileID: 0}
     - target: {fileID: 4146698010612028, guid: 71367b31cef17d942bfbaf01801d2aea, type: 2}
       propertyPath: m_LocalRotation.x
