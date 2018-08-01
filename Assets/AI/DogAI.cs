@@ -21,9 +21,11 @@ public class DogAI : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		transform.LookAt(Player);
+		if (!hasAttacked) {
+			transform.LookAt(Player);
+		}
 
-		if (!hasAttacked && !hasSeenCat && Vector3.Distance(transform.position, Player.position) >= 3)
+		if (!hasAttacked && !hasSeenCat && Vector3.Distance(transform.position, Player.position) <= 3)
 		{
 			hasSeenCat = true;
 		}
