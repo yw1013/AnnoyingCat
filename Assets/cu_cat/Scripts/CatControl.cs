@@ -9,7 +9,7 @@ public class CatControl : MonoBehaviour {
     private bool isGrounded;
     private bool shiftPressed;
     private bool isTurning;
-    public float speed = 1.6f;
+    public float speed = 1.3f;
     public float jumpableGroundNormalMaxAngle = 45f;
     public bool closeToJumpableGround;
 
@@ -74,14 +74,15 @@ public class CatControl : MonoBehaviour {
         {
             if (shiftPressed)
             {
-                speed = 1.9f;
+                speed = 1.7f;
             }
             else
             {
-                speed = 1.1f;
+                speed = 1.3f;
             }
             var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
             transform.Translate(0, 0, Mathf.Abs(z));
+
         }
 
         if (Input.GetButtonUp("Vertical")) {
@@ -89,17 +90,17 @@ public class CatControl : MonoBehaviour {
         }
 
         //Other Functions
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            anim.SetTrigger("cry");
-        }
+        //if (Input.GetKeyDown(KeyCode.C))
+        //{
+        //    anim.SetTrigger("cry");
+        //}
 
-        if (Input.GetButtonDown("Fire1")) {
-            Vector3 dir = this.transform.position;
-            anim.SetTrigger("atk");
-            dir = -dir.normalized;
-            //rb.AddForce(dir * 1000);
-        }
+        //if (Input.GetButtonDown("Fire1")) {
+        //    Vector3 dir = this.transform.position;
+        //    anim.SetTrigger("atk");
+        //    dir = -dir.normalized;
+        //    //rb.AddForce(dir * 1000);
+        //}
 
         if (Input.GetButtonDown("Jump"))
         {
